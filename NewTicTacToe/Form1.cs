@@ -23,10 +23,12 @@ namespace NewTicTacToe
             if (opponent)
             {
                 btnBoard01.Text = "X";
+                opponent = !opponent;
             }
             else
             {
                 btnBoard01.Text = "O";
+                opponent = !opponent;
             }
         }
     }
