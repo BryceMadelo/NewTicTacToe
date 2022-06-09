@@ -38,15 +38,27 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard01.Text == "O" && btnBoard02.Text == "O" && btnBoard03.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Vertical = btnBoard 01, 04, 07
             if (btnBoard01.Text == "X" && btnBoard04.Text == "X" && btnBoard07.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard01.Text == "O" && btnBoard04.Text == "O" && btnBoard07.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Diagonal = btnBoard 01, 05, 09
             if (btnBoard01.Text == "X" && btnBoard05.Text == "X" && btnBoard09.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard01.Text == "O" && btnBoard05.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
