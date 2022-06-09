@@ -48,9 +48,6 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
-
-
-
         }
 
         private void btnBoard02_Click(object sender, EventArgs e)
@@ -66,6 +63,17 @@ namespace NewTicTacToe
                 btnBoard02.Text = "O";
                 opponent = !opponent;
                 btnBoard02.Text = "O"; btnBoard02.Enabled = false;
+            }
+            //Checking of Winner for 2nd button
+            //Winner in Horizontal = btnBoard 01, 02, 03
+            if (btnBoard01.Text == "X" && btnBoard02.Text == "X" && btnBoard03.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Vertical = btnBoard 02, 05, 08
+            if (btnBoard02.Text == "X" && btnBoard05.Text == "X" && btnBoard08.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
         }
 
@@ -83,6 +91,22 @@ namespace NewTicTacToe
                 opponent = !opponent;
                 btnBoard03.Text = "O"; btnBoard03.Enabled = false;
             }
+            //Checking of Winner for 3rd button
+            //Winner in Horizontal = btnBoard 01, 02, 03
+            if (btnBoard01.Text == "X" && btnBoard02.Text == "X" && btnBoard03.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Vertical = btnBoard 03, 06, 09
+            if (btnBoard03.Text == "X" && btnBoard06.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Diagonal = btnBoard 03, 05, 07
+            if (btnBoard03.Text == "X" && btnBoard05.Text == "X" && btnBoard07.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
         }
 
         private void btnBoard04_Click(object sender, EventArgs e)
@@ -98,6 +122,17 @@ namespace NewTicTacToe
                 btnBoard04.Text = "O";
                 opponent = !opponent;
                 btnBoard04.Text = "O"; btnBoard04.Enabled = false;
+            }
+            //Checking of Winner for 4th button
+            //Winner in Horizontal = btnBoard 04, 05, 06
+            if (btnBoard04.Text == "X" && btnBoard05.Text == "X" && btnBoard06.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Vertical = btnBoard 01, 04, 07
+            if (btnBoard01.Text == "X" && btnBoard04.Text == "X" && btnBoard07.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
         }
 
@@ -115,6 +150,22 @@ namespace NewTicTacToe
                 opponent = !opponent;
                 btnBoard05.Text = "O"; btnBoard05.Enabled = false;
             }
+            //Checking of Winner for 5th button
+            //Winner in Vertical = btnBoard 02, 05, 08
+            if (btnBoard02.Text == "X" && btnBoard05.Text == "X" && btnBoard08.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Horizontal = btnBoard 04, 05, 06
+            if (btnBoard04.Text == "X" && btnBoard05.Text == "X" && btnBoard06.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Diagonal = btnBoard 01, 05, 09
+            if (btnBoard01.Text == "X" && btnBoard05.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
         }
 
         private void btnBoard06_Click(object sender, EventArgs e)
@@ -130,6 +181,17 @@ namespace NewTicTacToe
                 btnBoard06.Text = "O";
                 opponent = !opponent;
                 btnBoard06.Text = "O"; btnBoard06.Enabled = false;
+            }
+            //Checking of Winner for 6th button
+            //Winner in Vertical = btnBoard 03, 06, 09
+            if (btnBoard03.Text == "X" && btnBoard06.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Horizontal = btnBoard 04, 05, 06
+            if (btnBoard04.Text == "X" && btnBoard05.Text == "X" && btnBoard06.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
         }
 
@@ -147,6 +209,22 @@ namespace NewTicTacToe
                 opponent = !opponent;
                 btnBoard07.Text = "O"; btnBoard07.Enabled = false;
             }
+            //Checking of Winner for 7th button
+            //Winner in Vertical = btnBoard 01, 04, 07
+            if (btnBoard01.Text == "X" && btnBoard04.Text == "X" && btnBoard07.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Horizontal = btnBoard 07, 08, 09
+            if (btnBoard07.Text == "X" && btnBoard08.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Diagonal = btnBoard 07, 05, 03
+            if (btnBoard07.Text == "X" && btnBoard05.Text == "X" && btnBoard03.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
         }
 
         private void btnBoard08_Click(object sender, EventArgs e)
@@ -162,6 +240,17 @@ namespace NewTicTacToe
                 btnBoard08.Text = "O";
                 opponent = !opponent;
                 btnBoard08.Text = "O"; btnBoard08.Enabled = false;
+            }
+            //Checking of Winner for 8th button
+            //Winner in Horizontal = btnBoard 07, 08, 09
+            if (btnBoard07.Text == "X" && btnBoard08.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Vertical = btnBoard 02, 05, 08
+            if (btnBoard02.Text == "X" && btnBoard05.Text == "X" && btnBoard08.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
         }
 
@@ -179,6 +268,23 @@ namespace NewTicTacToe
                 opponent = !opponent;
                 btnBoard09.Text = "O"; btnBoard09.Enabled = false;
             }
+            //Checking of Winner for 9th button
+            //Winner in Vertical = btnBoard 03, 06, 09
+            if (btnBoard03.Text == "X" && btnBoard06.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Horizontal = btnBoard 07, 08, 09
+            if (btnBoard07.Text == "X" && btnBoard08.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Diagonal = btnBoard 01, 05, 09
+            if (btnBoard01.Text == "X" && btnBoard05.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+
         }
     }
 }
