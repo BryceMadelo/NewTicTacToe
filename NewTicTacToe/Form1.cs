@@ -12,7 +12,7 @@ namespace NewTicTacToe
 {
     public partial class Form1 : Form
     {
-        bool opponent = true; //opponent is used as vriable for players
+        bool opponent = true; //opponent is used as variable for players
         public Form1()
         {
             InitializeComponent();
@@ -32,6 +32,25 @@ namespace NewTicTacToe
                 opponent = !opponent;
                 btnBoard01.Text = "O"; btnBoard01.Enabled = false;
             }
+            //Checking of Winner for 1st button
+            //Winner in Horizontal = btnBoard 01, 02, and 03.
+            if (btnBoard01.Text == "X" && btnBoard02.Text == "X" && btnBoard03.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Vertical = btnBoard 01, 04, 07
+            if (btnBoard01.Text == "X" && btnBoard04.Text == "X" && btnBoard07.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            //Winner in Diagonal = btnBoard 01, 05, 09
+            if (btnBoard01.Text == "X" && btnBoard05.Text == "X" && btnBoard09.Text == "X")
+            {
+                MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+
+
+
         }
 
         private void btnBoard02_Click(object sender, EventArgs e)
