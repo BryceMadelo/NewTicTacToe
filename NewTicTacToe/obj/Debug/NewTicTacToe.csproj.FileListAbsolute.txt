@@ -1,0 +1,11 @@
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\bin\Debug\NewTicTacToe.exe.config
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\bin\Debug\NewTicTacToe.exe
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\bin\Debug\NewTicTacToe.pdb
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.csproj.AssemblyReference.cache
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.Form1.resources
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.Properties.Resources.resources
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.csproj.GenerateResource.cache
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.exe
+C:\Users\Bryce\source\repos\NewTicTacToe\NewTicTacToe\obj\Debug\NewTicTacToe.pdb

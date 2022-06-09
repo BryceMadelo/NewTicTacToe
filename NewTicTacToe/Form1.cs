@@ -12,9 +12,22 @@ namespace NewTicTacToe
 {
     public partial class Form1 : Form
     {
+        bool opponent = true; //opponent is used as vriable for players
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnBoard01_Click(object sender, EventArgs e)
+        {
+            if (opponent)
+            {
+                btnBoard01.Text = "X";
+            }
+            else
+            {
+                btnBoard01.Text = "O";
+            }
         }
     }
 }

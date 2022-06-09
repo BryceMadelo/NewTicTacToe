@@ -43,11 +43,13 @@
             // btnBoard01
             // 
             this.btnBoard01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBoard01.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBoard01.Location = new System.Drawing.Point(33, 80);
             this.btnBoard01.Name = "btnBoard01";
             this.btnBoard01.Size = new System.Drawing.Size(62, 54);
             this.btnBoard01.TabIndex = 3;
             this.btnBoard01.UseVisualStyleBackColor = true;
+            this.btnBoard01.Click += new System.EventHandler(this.btnBoard01_Click);
             // 
             // btnBoard02
             // 
