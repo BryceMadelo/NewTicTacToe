@@ -82,10 +82,18 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard01.Text == "O" && btnBoard02.Text == "O" && btnBoard03.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Vertical = btnBoard 02, 05, 08
             if (btnBoard02.Text == "X" && btnBoard05.Text == "X" && btnBoard08.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard02.Text == "O" && btnBoard05.Text == "O" && btnBoard08.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -109,15 +117,27 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard01.Text == "O" && btnBoard02.Text == "O" && btnBoard03.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Vertical = btnBoard 03, 06, 09
             if (btnBoard03.Text == "X" && btnBoard06.Text == "X" && btnBoard09.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard03.Text == "O" && btnBoard06.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Diagonal = btnBoard 03, 05, 07
             if (btnBoard03.Text == "X" && btnBoard05.Text == "X" && btnBoard07.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard03.Text == "O" && btnBoard05.Text == "O" && btnBoard07.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -141,10 +161,18 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard04.Text == "O" && btnBoard05.Text == "O" && btnBoard06.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Vertical = btnBoard 01, 04, 07
             if (btnBoard01.Text == "X" && btnBoard04.Text == "X" && btnBoard07.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard01.Text == "O" && btnBoard04.Text == "O" && btnBoard07.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -168,15 +196,27 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard02.Text == "O" && btnBoard05.Text == "O" && btnBoard08.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Horizontal = btnBoard 04, 05, 06
             if (btnBoard04.Text == "X" && btnBoard05.Text == "X" && btnBoard06.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard04.Text == "O" && btnBoard05.Text == "O" && btnBoard06.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Diagonal = btnBoard 01, 05, 09
             if (btnBoard01.Text == "X" && btnBoard05.Text == "X" && btnBoard09.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard01.Text == "O" && btnBoard05.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -200,10 +240,18 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard03.Text == "O" && btnBoard06.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Horizontal = btnBoard 04, 05, 06
             if (btnBoard04.Text == "X" && btnBoard05.Text == "X" && btnBoard06.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard04.Text == "O" && btnBoard05.Text == "O" && btnBoard06.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -227,15 +275,27 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard01.Text == "O" && btnBoard04.Text == "O" && btnBoard07.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Horizontal = btnBoard 07, 08, 09
             if (btnBoard07.Text == "X" && btnBoard08.Text == "X" && btnBoard09.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard07.Text == "O" && btnBoard08.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Diagonal = btnBoard 07, 05, 03
             if (btnBoard07.Text == "X" && btnBoard05.Text == "X" && btnBoard03.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard07.Text == "O" && btnBoard05.Text == "O" && btnBoard03.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -259,10 +319,18 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard07.Text == "O" && btnBoard08.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Vertical = btnBoard 02, 05, 08
             if (btnBoard02.Text == "X" && btnBoard05.Text == "X" && btnBoard08.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard02.Text == "O" && btnBoard05.Text == "O" && btnBoard08.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
         }
 
@@ -286,17 +354,28 @@ namespace NewTicTacToe
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
+            if (btnBoard03.Text == "O" && btnBoard06.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
             //Winner in Horizontal = btnBoard 07, 08, 09
             if (btnBoard07.Text == "X" && btnBoard08.Text == "X" && btnBoard09.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
+            }
+            if (btnBoard07.Text == "O" && btnBoard08.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
             }
             //Winner in Diagonal = btnBoard 01, 05, 09
             if (btnBoard01.Text == "X" && btnBoard05.Text == "X" && btnBoard09.Text == "X")
             {
                 MessageBox.Show("Congratulations Player X you've won the game!!!");
             }
-
+            if (btnBoard01.Text == "O" && btnBoard05.Text == "O" && btnBoard09.Text == "O")
+            {
+                MessageBox.Show("Congratulations Player O you've won the game!!!");
+            }
         }
     }
 }
