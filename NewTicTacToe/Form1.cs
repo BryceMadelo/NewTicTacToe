@@ -24,11 +24,13 @@ namespace NewTicTacToe
             {
                 btnBoard01.Text = "X";
                 opponent = !opponent;
+                btnBoard01.Text = "X"; btnBoard01.Enabled = false;
             }
             else
             {
                 btnBoard01.Text = "O";
                 opponent = !opponent;
+                btnBoard01.Text = "O"; btnBoard01.Enabled = false;
             }
         }
     }
