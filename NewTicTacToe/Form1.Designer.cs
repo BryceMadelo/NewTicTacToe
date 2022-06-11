@@ -49,6 +49,7 @@
             this.btnBoard01.Size = new System.Drawing.Size(62, 54);
             this.btnBoard01.TabIndex = 3;
             this.btnBoard01.UseVisualStyleBackColor = true;
+            this.btnBoard01.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard01.Click += new System.EventHandler(this.btnBoard01_Click);
             // 
             // btnBoard02
@@ -60,6 +61,7 @@
             this.btnBoard02.Size = new System.Drawing.Size(62, 54);
             this.btnBoard02.TabIndex = 4;
             this.btnBoard02.UseVisualStyleBackColor = true;
+            this.btnBoard02.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard02.Click += new System.EventHandler(this.btnBoard02_Click);
             // 
             // btnBoard03
@@ -71,6 +73,7 @@
             this.btnBoard03.Size = new System.Drawing.Size(62, 54);
             this.btnBoard03.TabIndex = 5;
             this.btnBoard03.UseVisualStyleBackColor = true;
+            this.btnBoard03.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard03.Click += new System.EventHandler(this.btnBoard03_Click);
             // 
             // btnBoard04
@@ -82,6 +85,7 @@
             this.btnBoard04.Size = new System.Drawing.Size(62, 54);
             this.btnBoard04.TabIndex = 6;
             this.btnBoard04.UseVisualStyleBackColor = true;
+            this.btnBoard04.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard04.Click += new System.EventHandler(this.btnBoard04_Click);
             // 
             // btnBoard05
@@ -93,6 +97,7 @@
             this.btnBoard05.Size = new System.Drawing.Size(62, 54);
             this.btnBoard05.TabIndex = 7;
             this.btnBoard05.UseVisualStyleBackColor = true;
+            this.btnBoard05.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard05.Click += new System.EventHandler(this.btnBoard05_Click);
             // 
             // btnBoard06
@@ -104,6 +109,7 @@
             this.btnBoard06.Size = new System.Drawing.Size(62, 54);
             this.btnBoard06.TabIndex = 8;
             this.btnBoard06.UseVisualStyleBackColor = true;
+            this.btnBoard06.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard06.Click += new System.EventHandler(this.btnBoard06_Click);
             // 
             // btnBoard07
@@ -115,6 +121,7 @@
             this.btnBoard07.Size = new System.Drawing.Size(62, 54);
             this.btnBoard07.TabIndex = 9;
             this.btnBoard07.UseVisualStyleBackColor = true;
+            this.btnBoard07.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard07.Click += new System.EventHandler(this.btnBoard07_Click);
             // 
             // btnBoard08
@@ -126,6 +133,7 @@
             this.btnBoard08.Size = new System.Drawing.Size(62, 54);
             this.btnBoard08.TabIndex = 10;
             this.btnBoard08.UseVisualStyleBackColor = true;
+            this.btnBoard08.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard08.Click += new System.EventHandler(this.btnBoard08_Click);
             // 
             // btnBoard09
@@ -137,6 +145,7 @@
             this.btnBoard09.Size = new System.Drawing.Size(62, 54);
             this.btnBoard09.TabIndex = 11;
             this.btnBoard09.UseVisualStyleBackColor = true;
+            this.btnBoard09.AutoSizeChanged += new System.EventHandler(this.btnBoardAll_Click);
             this.btnBoard09.Click += new System.EventHandler(this.btnBoard09_Click);
             // 
             // label1
