@@ -796,5 +796,15 @@ namespace NewTicTacToe
         {
 
         }
+
+        private void GameInfo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("RULES FOR TIC-TAC-TOE.                                                                               -The game is played on a grid that's 3 squares by 3 squares.                      -You are X, and the other player is O.                                                         -The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner. ");
+        }
+        private void Restart_Click(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }
