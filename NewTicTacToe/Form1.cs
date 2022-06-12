@@ -125,6 +125,7 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoard02_Click(object sender, EventArgs e)
         {
@@ -199,6 +200,7 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoard03_Click(object sender, EventArgs e)
         {
@@ -300,6 +302,7 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoard04_Click(object sender, EventArgs e)
         {
@@ -374,6 +377,7 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoard05_Click(object sender, EventArgs e)
         {
@@ -549,6 +553,7 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoard07_Click(object sender, EventArgs e)
         {
@@ -724,6 +729,7 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoard09_Click(object sender, EventArgs e)
         {
@@ -825,10 +831,11 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
+            DrawChecker();
         }
         private void btnBoardAll_Click(object sender, EventArgs e)
         {
-            DrawChecker();
+            
         }
         private void GameInfo_Click(object sender, EventArgs e)
         {
