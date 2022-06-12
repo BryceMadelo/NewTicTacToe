@@ -32,7 +32,7 @@ namespace NewTicTacToe
                 btnBoard01.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard01.Text = "X"; btnBoard01.Enabled = false;
+                btnBoard01.Enabled = false;
                 btnBoard01.BackColor = Color.PaleVioletRed;
             }
             else
@@ -40,7 +40,7 @@ namespace NewTicTacToe
                 btnBoard01.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard01.Text = "O"; btnBoard01.Enabled = false;
+                btnBoard01.Enabled = false;
                 btnBoard01.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 1st button
@@ -134,7 +134,7 @@ namespace NewTicTacToe
                 btnBoard02.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard02.Text = "X"; btnBoard02.Enabled = false;
+                btnBoard02.Enabled = false;
                 btnBoard02.BackColor = Color.PaleVioletRed;
             }
             else
@@ -142,7 +142,7 @@ namespace NewTicTacToe
                 btnBoard02.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard02.Text = "O"; btnBoard02.Enabled = false;
+                btnBoard02.Enabled = false;
                 btnBoard02.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 2nd button
@@ -209,7 +209,7 @@ namespace NewTicTacToe
                 btnBoard03.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard03.Text = "X"; btnBoard03.Enabled = false;
+                btnBoard03.Enabled = false;
                 btnBoard03.BackColor = Color.PaleVioletRed;
             }
             else
@@ -217,7 +217,7 @@ namespace NewTicTacToe
                 btnBoard03.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard03.Text = "O"; btnBoard03.Enabled = false;
+                btnBoard03.Enabled = false;
                 btnBoard03.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 3rd button
@@ -311,7 +311,7 @@ namespace NewTicTacToe
                 btnBoard04.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard04.Text = "X"; btnBoard04.Enabled = false;
+                btnBoard04.Enabled = false;
                 btnBoard04.BackColor = Color.PaleVioletRed;
             }
             else
@@ -319,7 +319,7 @@ namespace NewTicTacToe
                 btnBoard04.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard04.Text = "O"; btnBoard04.Enabled = false;
+                btnBoard04.Enabled = false;
                 btnBoard04.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 4th button
@@ -386,7 +386,7 @@ namespace NewTicTacToe
                 btnBoard05.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard05.Text = "X"; btnBoard05.Enabled = false;
+                btnBoard05.Enabled = false;
                 btnBoard05.BackColor = Color.PaleVioletRed;
             }
             else
@@ -394,7 +394,7 @@ namespace NewTicTacToe
                 btnBoard05.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard05.Text = "O"; btnBoard05.Enabled = false;
+                btnBoard05.Enabled = false;
                 btnBoard05.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 5th button
@@ -487,7 +487,7 @@ namespace NewTicTacToe
                 btnBoard06.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard06.Text = "X"; btnBoard06.Enabled = false;
+                btnBoard06.Enabled = false;
                 btnBoard06.BackColor = Color.PaleVioletRed;
             }
             else
@@ -495,7 +495,7 @@ namespace NewTicTacToe
                 btnBoard06.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard06.Text = "O"; btnBoard06.Enabled = false;
+                btnBoard06.Enabled = false;
                 btnBoard06.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 6th button
@@ -562,7 +562,7 @@ namespace NewTicTacToe
                 btnBoard07.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard07.Text = "X"; btnBoard07.Enabled = false;
+                btnBoard07.Enabled = false;
                 btnBoard07.BackColor = Color.PaleVioletRed;
             }
             else
@@ -570,7 +570,7 @@ namespace NewTicTacToe
                 btnBoard07.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard07.Text = "O"; btnBoard07.Enabled = false;
+                btnBoard07.Enabled = false;
                 btnBoard07.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 7th button
@@ -663,7 +663,7 @@ namespace NewTicTacToe
                 btnBoard08.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard08.Text = "X"; btnBoard08.Enabled = false;
+                btnBoard08.Enabled = false;
                 btnBoard08.BackColor = Color.PaleVioletRed;
             }
             else
@@ -671,7 +671,7 @@ namespace NewTicTacToe
                 btnBoard08.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard08.Text = "O"; btnBoard08.Enabled = false;
+                btnBoard08.Enabled = false;
                 btnBoard08.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 8th button
@@ -738,7 +738,7 @@ namespace NewTicTacToe
                 btnBoard09.Text = "X";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard09.Text = "X"; btnBoard09.Enabled = false;
+                btnBoard09.Enabled = false;
                 btnBoard09.BackColor = Color.PaleVioletRed;
             }
             else
@@ -746,7 +746,7 @@ namespace NewTicTacToe
                 btnBoard09.Text = "O";
                 opponent = !opponent;
                 opponent_count++;
-                btnBoard09.Text = "O"; btnBoard09.Enabled = false;
+                btnBoard09.Enabled = false;
                 btnBoard09.BackColor = Color.LimeGreen;
             }
             //Checking of Winner for 9th button
