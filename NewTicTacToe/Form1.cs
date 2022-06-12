@@ -43,7 +43,6 @@ namespace NewTicTacToe
                 btnBoard01.Text = "O"; btnBoard01.Enabled = false;
                 btnBoard01.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 1st button
             //Winner in Horizontal = btnBoard 01, 02, and 03.
             if (btnBoard01.Text == "X" && btnBoard02.Text == "X" && btnBoard03.Text == "X")
@@ -145,7 +144,6 @@ namespace NewTicTacToe
                 btnBoard02.Text = "O"; btnBoard02.Enabled = false;
                 btnBoard02.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 2nd button
             //Winner in Horizontal = btnBoard 01, 02, 03
             if (btnBoard01.Text == "X" && btnBoard02.Text == "X" && btnBoard03.Text == "X")
@@ -220,7 +218,6 @@ namespace NewTicTacToe
                 btnBoard03.Text = "O"; btnBoard03.Enabled = false;
                 btnBoard03.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 3rd button
             //Winner in Horizontal = btnBoard 01, 02, 03
             if (btnBoard01.Text == "X" && btnBoard02.Text == "X" && btnBoard03.Text == "X")
@@ -322,7 +319,6 @@ namespace NewTicTacToe
                 btnBoard04.Text = "O"; btnBoard04.Enabled = false;
                 btnBoard04.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 4th button
             //Winner in Horizontal = btnBoard 04, 05, 06
             if (btnBoard04.Text == "X" && btnBoard05.Text == "X" && btnBoard06.Text == "X")
@@ -397,7 +393,6 @@ namespace NewTicTacToe
                 btnBoard05.Text = "O"; btnBoard05.Enabled = false;
                 btnBoard05.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 5th button
             //Winner in Vertical = btnBoard 02, 05, 08
             if (btnBoard02.Text == "X" && btnBoard05.Text == "X" && btnBoard08.Text == "X")
@@ -499,7 +494,6 @@ namespace NewTicTacToe
                 btnBoard06.Text = "O"; btnBoard06.Enabled = false;
                 btnBoard06.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 6th button
             //Winner in Vertical = btnBoard 03, 06, 09
             if (btnBoard03.Text == "X" && btnBoard06.Text == "X" && btnBoard09.Text == "X")
@@ -574,7 +568,6 @@ namespace NewTicTacToe
                 btnBoard07.Text = "O"; btnBoard07.Enabled = false;
                 btnBoard07.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 7th button
             //Winner in Vertical = btnBoard 01, 04, 07
             if (btnBoard01.Text == "X" && btnBoard04.Text == "X" && btnBoard07.Text == "X")
@@ -676,7 +669,6 @@ namespace NewTicTacToe
                 btnBoard08.Text = "O"; btnBoard08.Enabled = false;
                 btnBoard08.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 8th button
             //Winner in Horizontal = btnBoard 07, 08, 09
             if (btnBoard07.Text == "X" && btnBoard08.Text == "X" && btnBoard09.Text == "X")
@@ -751,7 +743,6 @@ namespace NewTicTacToe
                 btnBoard09.Text = "O"; btnBoard09.Enabled = false;
                 btnBoard09.BackColor = Color.LimeGreen;
             }
-            DrawChecker();
             //Checking of Winner for 9th button
             //Winner in Vertical = btnBoard 03, 06, 09
             if (btnBoard03.Text == "X" && btnBoard06.Text == "X" && btnBoard09.Text == "X")
@@ -834,11 +825,10 @@ namespace NewTicTacToe
                 btnBoard08.Enabled = false;
                 btnBoard09.Enabled = false;
             }
-            
         }
         private void btnBoardAll_Click(object sender, EventArgs e)
         {
-                
+            DrawChecker();
         }
         private void GameInfo_Click(object sender, EventArgs e)
         {
