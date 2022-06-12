@@ -41,7 +41,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.GameInfo = new System.Windows.Forms.Button();
             this.Restart = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.ExitGame = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -209,17 +209,18 @@
             this.Restart.UseVisualStyleBackColor = false;
             this.Restart.Click += new System.EventHandler(this.Restart_Click);
             // 
-            // button3
+            // ExitGame
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkGreen;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(82, 305);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 24);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "EXIT THE GAME\r\n";
-            this.button3.UseVisualStyleBackColor = false;
+            this.ExitGame.BackColor = System.Drawing.Color.DarkGreen;
+            this.ExitGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitGame.ForeColor = System.Drawing.Color.White;
+            this.ExitGame.Location = new System.Drawing.Point(82, 305);
+            this.ExitGame.Name = "ExitGame";
+            this.ExitGame.Size = new System.Drawing.Size(131, 24);
+            this.ExitGame.TabIndex = 16;
+            this.ExitGame.Text = "EXIT THE GAME\r\n";
+            this.ExitGame.UseVisualStyleBackColor = false;
+            this.ExitGame.Click += new System.EventHandler(this.ExitGame_Click);
             // 
             // Form1
             // 
@@ -227,7 +228,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(293, 341);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ExitGame);
             this.Controls.Add(this.Restart);
             this.Controls.Add(this.GameInfo);
             this.Controls.Add(this.groupBox1);
@@ -254,7 +255,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button GameInfo;
         private System.Windows.Forms.Button Restart;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button ExitGame;
     }
 }
 

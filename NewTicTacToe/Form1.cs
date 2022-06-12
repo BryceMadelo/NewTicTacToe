@@ -828,7 +828,12 @@ namespace NewTicTacToe
         }
         private void Restart_Click(object sender, EventArgs e)
         {
-            
+            Application.Restart();
+        }
+
+        private void ExitGame_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
